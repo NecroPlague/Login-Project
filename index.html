@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome</title>
+    <link rel="stylesheet" href="Styles/style.css" />
+  </head>
+  <body>
+    <section id="login">
+      <h1 id="title">ورود به حساب کاربری</h1>
+      <form action="#">
+        <div id="unamecontainer">
+          <label for="uname" class="labels">نام کاربری</label>
+          <input type="text" placeholder="فقط حروف" id="uname" class="input" />
+        </div>
+
+        <div id="pwordcontainer">
+          <label for="pword" class="labels">کلمه عبور</label>
+          <input
+            type="password"
+            placeholder="حداقل 8 کاراکتر"
+            id="pword"
+            class="input pwordinput"
+          />
+          <img src="imgs/visi.png" alt="passwordon" id="eyeimg" />
+        </div>
+
+        <input type="submit" class="btn" value="ورود به حساب کاربری" />
+      </form>
+    </section>
+
+    <script src="/scripts/scripts.js"></script>
+  </body>
+</html>

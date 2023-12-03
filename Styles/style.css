@@ -1,0 +1,102 @@
+@import url(/Styles/reset.css);
+
+body , * {
+    font-family: Vazir;
+    src: url('Vazir-Regular.eot');
+    src: url('Vazir-Regular.eot?#iefix') format('embedded-opentype'),
+         url('Vazir-Regular.woff2') format('woff2'),
+         url('Vazir-Regular.woff') format('woff'),
+         url('Vazir-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    direction: rtl;
+    background: linear-gradient(
+      45deg,
+      rgba(0, 20, 83, 1) 0%,
+      rgba(20, 147, 255, 1) 50%,
+      rgba(163, 212, 255, 1) 100%
+    );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    
+    
+  }
+  
+
+#login  {
+    width: 400px;
+    margin:350px auto 0px auto;
+    background-color: #fff;
+    padding: 50px;
+}
+
+#login .labels  {
+    display: block;
+    padding: 8px 0px;
+    font-size: 14px;
+
+}
+
+#login form {
+    margin-top: 20px;
+    
+}
+
+#login #title   {
+    font-weight: bold;
+    color: #1e88e5;
+    font-size: 23px;
+}
+
+#login .input   {
+    width: 100%;
+    border: none;
+    background-color: #e4e4e4;
+    padding: 10px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+#login .input:focus {
+    outline: none;
+    background-color: #e0e0e0;
+}
+
+#login .btn {
+    width: 100%;
+    margin-top: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #1e88e5;
+    color: #fff;
+    transition: 0.4s;
+}
+
+#login .btn:hover  {
+    background-color: #016ece;
+    transition: 0.4s;
+    cursor: pointer;
+
+}
+
+#pwordcontainer {
+    position: relative;
+}
+
+#pwordcontainer #eyeimg {
+    width: 18px;
+    opacity: 0.6;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    display: none;
+}
+
+#pwordcontainer #eyeimg:hover   {
+    opacity: 0.8;
+    cursor: pointer;
+}
